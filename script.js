@@ -10,7 +10,7 @@ button.addEventListener("click", function() {
 
     console.log(password);
 
-    if (password === "Open Says Me") {
+    if (password == "Open Says Me") {
         document.querySelector(".yes").style = "display:block";
         document.querySelector(".denied").style = "display:none";
     } else {
